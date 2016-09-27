@@ -34,9 +34,9 @@ public class MemberTest {
 	
 	@Before
 	public void setUp() throws Exception {
-		mem1 = new Member("Asmita", "Singh", "12345", "asmita@gmail.com", 101);
-		mem2 = new Member("Prateek", "Narang", "54321", "prateek@gmail.com", 102);
-		mem3 = new Member("Krishanthi", "Wickram", "98765", "krishanthi@gmail.com", 103);
+		mem1 = new Member("Gurjit", "Singh", "12345", "asmita@gmail.com", 101);
+		mem2 = new Member("Atwal", "Narang", "54321", "prateek@gmail.com", 102);
+		mem3 = new Member("akash", "Wickram", "98765", "krishanthi@gmail.com", 103);
 
 		book[0] = bookDAO.addBook("author1", "title1", "callNo1");
 		book[1] = bookDAO.addBook("author2", "title2", "callNo2");
@@ -243,7 +243,7 @@ public class MemberTest {
 	@Test
 	public final void testGetFirstName() {
 		String fName = mem1.getFirstName();
-		assertEquals("Matching First Name", "Asmita", fName);
+		assertEquals("Matching First Name", "gurjit", fName);
 	}
 
 	
@@ -264,7 +264,7 @@ public class MemberTest {
 	@Test
 	public final void testGetEmailAddress() {
 		String email = mem1.getEmailAddress();
-		assertEquals("Matching email", "asmita@gmail.com", email);
+		assertEquals("Matching email", "gurjit1993singh@gmail.com", email);
 	}
 
 	

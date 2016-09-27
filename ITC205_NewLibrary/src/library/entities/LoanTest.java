@@ -24,10 +24,10 @@ public class LoanTest {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		Book b1= new Book("Krishanthi", "Welcome to JUnit testing", "123456", 9999);
-		Book b2= new Book("Krishanthi", "Welcome to JUnit testing", "123456", 00023);
+		Book b1= new Book("Singh", "Welcome to JUnit testing", "123456", 9999);
+		Book b2= new Book("Singh", "Welcome to JUnit testing", "123456", 00023);
 
-		Member m1= new Member("Krishanthi","Wickramasooriya","123456","krishanthi@gmail.com",1234);
+		Member m1= new Member("Singh","Atwal","123456","atwal@gmail.com",1234);
 		//Date d1 = (new GregorianCalendar(2016, 9, 15)).getTime();
 		//Date d2= new Date();
 		Calendar returnDate = Calendar.getInstance();
@@ -98,14 +98,14 @@ public class LoanTest {
 
 	@Test
 	public void testGetBook() {
-		Book b1= new Book("Krishanthi", "Welcome to JUnit testing", "123456", 9999);
+		Book b1= new Book("singh", "Welcome to JUnit testing", "123456", 9999);
 		int id =b1.getID();
 		assertEquals("Maching book",9999,id);
 	}
 
 	@Test
 	public void testGetID() {
-		Member m= new Member("Krishanthi","Wickramasooriya","123456","krishanthi@gmail.com",2222);
+		Member m= new Member("singh","atwal","123456","atwal@gmail.com",2222);
 		int id= m.getID();
 		assertEquals("Matching Member Id", 2222, id);
 	}

@@ -12,7 +12,7 @@ import org.junit.Test;
 
 public class BookTest {
 
-	Book book = new Book("Prateek Narang", "Welcome to JUnit Testing.", "IT678", 7895012);
+	Book book = new Book("Gurjit singh", "Welcome to JUnit Testing.", "IT678", 7895012);
 
 	@Test
 	public void testBook() {
@@ -72,7 +72,7 @@ public class BookTest {
 	@Test
 	public void testGetAuthor() {
 		String author = book.getAuthor();
-		assertEquals("Prateek Narang", author);
+		assertEquals("Gurjit singh", author);
 	}
 
 	@Test
