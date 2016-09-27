@@ -25,7 +25,7 @@ public class BookMapDAO implements IBookDAO {
 		bookMap = new HashMap<Integer, IBook>();
 	}
 	/
-//11557
+//115572
 	public BookMapDAO(IBookHelper helper, Map<Integer, IBook> bookMap) {
 		this(helper);
 		if (helper == null ) {
