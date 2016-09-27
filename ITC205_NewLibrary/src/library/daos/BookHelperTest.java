@@ -25,4 +25,4 @@ public class BookHelperTest extends TestCase {
 		
 	}
 
-}
+}//.
