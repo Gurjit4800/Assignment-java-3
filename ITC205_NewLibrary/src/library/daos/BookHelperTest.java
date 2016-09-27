@@ -4,7 +4,7 @@ package library.daos;
 import junit.framework.TestCase;
 
 /**
- * @author 1
+ * @author 11
  *
  */
 public class BookHelperTest extends TestCase {
