@@ -15,7 +15,7 @@ public class BookHelperTest extends TestCase {
 	}
 
 	// test for testmakebook 
-        //
+        //.
 	public void testMakeBook() {
 		fail("Not yet implemented");
 	}
